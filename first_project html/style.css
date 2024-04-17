@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+body{
+    background-color: rgb(192,192,192);
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100%;
+    padding-top: 50px;
+}
+.logo-text{
+    color:white;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    margin-left: 110px;
+}
+
+  .but{
+    float: right;
+    margin-top: 30px;
+    padding-right: 30px ;
+
+  }
+  
+  .button {
+    float: left;
+    margin: 5px;  /* Adjust margin for spacing */
+    padding: 3px 5px;  /* Adjust padding for button size */
+    border: 1px solid #ddd;
+    background-color: #f1f1f1;
+  }
+  .card1{
+    width: 350px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 2px;
+    border-color: rgb(192,192,192);
+    margin-right: 35px;
+    padding: 30px;
+    float: left;
+    
+  }
+  .card2{
+    width: 350px;
+    height: 200px;
+    margin-left: 23px;
+    border: 2px;
+    border-color: rgb(192,192,192);
+    margin-right: 45px;
+    padding: 30px;
+    float: left;
+    
+  }
+  .card3{
+    width: 350px;
+    height: 200px;
+    margin-right: 100px;
+    padding: 30px;
+    margin-left: 20px;
+    border: 2px;
+    border-color: rgb(192,192,192);
+    float: left;
+ 
+  }
+  
+  .card-img-top{
+
+    width: 250px;
+    border: solid black;
+    height: 255px;
+    border: 5px;
+    align-items: start;
+  }
+
+
+
+.bg-img{
+    width: 5%;
+    height: 5%;
+    
+  }
+  .text1{
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+  }
+  .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover .card-image img {
+    transform: scale(1.1);
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #333;
+  }
+  .text{
+    
+    margin-bottom: 30px;
+    padding: 80px;
+    color: black;
+    float: right;
+
+  }
+  .image{
+    width: 100%;
+    margin-top: 40px;
+    height: 200px;
+    object-fit: cover;
+    float: right;
+  }
+  
